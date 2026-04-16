@@ -13,7 +13,7 @@ export default defineConfig({
       },
       server: {
               host: '0.0.0.0',
-              allowedHosts: '.sslip.io',
+              allowedHosts: 'all',
               port: 3000,
               hmr: {
                         host: '92.176.76.208',
